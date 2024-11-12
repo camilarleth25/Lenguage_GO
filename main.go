@@ -6,7 +6,7 @@ import (
 )
 
 func handler(w http.ResponseWriter, r *http.Request) {
-	fmt.Fprintf(w, "Access granted")
+	fmt.Fprintf(w, "HELLO MY FRIENDS")
 }
 
 func main() {

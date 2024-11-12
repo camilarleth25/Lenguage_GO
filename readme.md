@@ -24,10 +24,10 @@ Primero, clona este repositorio en tu computadora local con Git:
 
 Después de clonar el repositorio, construye la imagen de Docker utilizando el siguiente comando:
 
-- docker build -t go-docker .
+- docker build -t pagego .
 
 ### PASO 3: Ejecutar el Contenedor Docker
 
 Una vez creada la imagen, ejecuta el contenedor y asigna el puerto 8081 de tu máquina con el siguiente comando:
 
-- docker run -p 8081:8081 go-docker
+- docker run -p 8081:8081 pagego
